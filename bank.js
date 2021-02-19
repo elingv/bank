@@ -26,7 +26,7 @@ function takeout() {
   if (balance - Number(valueToWithdrawl) > 0) {
     balance = balance - Number(valueToWithdrawl);
   } else {
-    alert("You would overdraft");
+    alert("You would overdraft!!!");
   }
 }
 
